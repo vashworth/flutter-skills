@@ -24,3 +24,12 @@ Triages iOS or macOS Flutter PRs.
 
 ## [Writing Tests](personal-writing-tests/SKILL.md)
 Writes tests for modified code.
+
+# Add skill to flutter/flutter
+
+Within your flutter repo, create a symbolic link to the skill. See example:
+
+```bash
+# From the flutter/flutter directory
+ln -s /path/to/flutter-skills/personal-classifying-run-test-intent .agents/skills/
+```
